@@ -122,7 +122,7 @@ public class SkyWarsActive {
             activity.deny(GameRuleType.INTERACTION);
             activity.allow(GameRuleType.BLOCK_DROPS);
             activity.allow(GameRuleType.THROW_ITEMS);
-            activity.deny(GameRuleType.UNSTABLE_TNT);
+            activity.allow(GameRuleType.UNSTABLE_TNT);
             activity.allow(GameRuleType.PLAYER_PROJECTILE_KNOCKBACK);
             activity.allow(GameRuleType.TRIDENTS_LOYAL_IN_VOID);
             activity.allow(SkyWars.PROJECTILE_PLAYER_MOMENTUM);
